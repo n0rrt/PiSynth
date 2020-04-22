@@ -2,7 +2,7 @@ import pyfirmata
 import time
 import matplotlib.pyplot as plt
 from pippi import dsp, fx
-hat = dsp.tone()
+
 board = pyfirmata.Arduino('COM11')
 it = pyfirmata.util.Iterator(board)
 it.start()

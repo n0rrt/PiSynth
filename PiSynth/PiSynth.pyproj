@@ -23,6 +23,9 @@
   <ItemGroup>
     <Compile Include="arduino_controls.py" />
     <Compile Include="arduino_input_classes.py" />
+    <Compile Include="midi_input.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PiSynth.py" />
     <Compile Include="wavegenerator.py" />
   </ItemGroup>
